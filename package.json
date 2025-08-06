@@ -10,10 +10,10 @@
     "test": "jest"
   },
   "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
-  },
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|tests))\\.tsx?$"
+},
   "devDependencies": {
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-typescript": "^7.27.1",
