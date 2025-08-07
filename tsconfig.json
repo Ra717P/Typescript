@@ -1,6 +1,7 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
+  "include": ["src/**/*", "tests/**/*"],
   "compilerOptions": {
+    // Visit https://aka.ms/tsconfig to read more about this file
     // File Layout
     // "rootDir": "./src",
     "outDir": "./dist",
